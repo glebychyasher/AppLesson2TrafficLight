@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "Traffic_Light_Ahead.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
