@@ -22,9 +22,10 @@ class ViewController: UIViewController {
         greenSignal.alpha = 0.3
         yellowSignal.alpha = 0.3
         
-        redSignal.layer.cornerRadius = 100
-        greenSignal.layer.cornerRadius = 100
-        yellowSignal.layer.cornerRadius = 100
+        let raduis = view.frame.width / 2
+        redSignal.layer.cornerRadius = redSignal.frame.width / 2
+        greenSignal.layer.cornerRadius = greenSignal.frame.width / 2
+        yellowSignal.layer.cornerRadius = yellowSignal.frame.width / 2
         startButton.layer.cornerRadius = 25
     
     }
@@ -32,7 +33,7 @@ class ViewController: UIViewController {
 
     @IBAction func startButtonPushed(_ sender: Any) {
         startButton.setTitle("Next", for: .normal)
-        changeLight(to: state)
+        changeLight()
         state += 1
         
         if state > 3 {
@@ -40,7 +41,7 @@ class ViewController: UIViewController {
         }
     }
     
-    private func changeLight(to state: Int) {
+    private func changeLight() {
         switch state {
         case 0:
             redSignal.alpha = 1
