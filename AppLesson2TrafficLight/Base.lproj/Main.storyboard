@@ -35,15 +35,24 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0lV-44-DZa">
                                         <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="0lV-44-DZa" secondAttribute="height" multiplier="1:1" id="7Bx-OS-BZc"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrX-qj-dK0">
                                         <rect key="frame" x="0.0" y="144" width="126" height="126"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="hrX-qj-dK0" secondAttribute="height" multiplier="1:1" id="wOA-ci-6Ql"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e4D-I3-yfM">
                                         <rect key="frame" x="0.0" y="288" width="126" height="126"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <color key="tintColor" systemColor="systemGreenColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="e4D-I3-yfM" secondAttribute="height" multiplier="1:1" id="iKq-2M-lTT"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
@@ -77,10 +86,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
