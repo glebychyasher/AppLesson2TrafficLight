@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         greenSignal.alpha = 0.3
         yellowSignal.alpha = 0.3
         
-        let raduis = view.frame.width / 2
         redSignal.layer.cornerRadius = redSignal.frame.width / 2
         greenSignal.layer.cornerRadius = greenSignal.frame.width / 2
         yellowSignal.layer.cornerRadius = yellowSignal.frame.width / 2
