@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppLesson2TrafficLight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bup-vc-D5L">
-                                <rect key="frame" x="106.5" y="488" width="107" height="60"/>
+                                <rect key="frame" x="142.33333333333331" y="812" width="143.33333333333331" height="60"/>
                                 <color key="backgroundColor" red="0.38835048389999999" green="0.74340876119999999" blue="0.97747533040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -30,24 +30,24 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="pfb-cD-P57">
-                                <rect key="frame" x="97" y="42" width="126" height="414"/>
+                                <rect key="frame" x="107.66666666666667" y="69" width="212.66666666666663" height="675"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0lV-44-DZa">
-                                        <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="212.66666666666666" height="213"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="0lV-44-DZa" secondAttribute="height" multiplier="1:1" id="7Bx-OS-BZc"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrX-qj-dK0">
-                                        <rect key="frame" x="0.0" y="144" width="126" height="126"/>
+                                        <rect key="frame" x="0.0" y="231" width="212.66666666666666" height="213"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="hrX-qj-dK0" secondAttribute="height" multiplier="1:1" id="wOA-ci-6Ql"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e4D-I3-yfM">
-                                        <rect key="frame" x="0.0" y="288" width="126" height="126"/>
+                                        <rect key="frame" x="0.0" y="462" width="212.66666666666666" height="213"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <color key="tintColor" systemColor="systemGreenColor"/>
                                         <constraints>
@@ -61,12 +61,11 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pfb-cD-P57" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.728873" id="BMT-Dt-r1a"/>
-                            <constraint firstItem="pfb-cD-P57" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="BSf-Ip-wXV"/>
                             <constraint firstItem="pfb-cD-P57" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="Bvw-Xc-p2y"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pfb-cD-P57" secondAttribute="trailing" constant="97" id="Oyf-Te-UYm"/>
                             <constraint firstItem="bup-vc-D5L" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.334375" id="YDc-3h-lWc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bup-vc-D5L" secondAttribute="bottom" constant="20" id="jvz-EM-O3G"/>
                             <constraint firstItem="bup-vc-D5L" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lHN-rk-yaa"/>
+                            <constraint firstItem="pfb-cD-P57" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="s1H-um-qvn"/>
                         </constraints>
                     </view>
                     <connections>
